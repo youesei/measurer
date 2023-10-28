@@ -1,0 +1,24 @@
+{
+  "name": "measurer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev-server": "npm run start --workspace=server",
+    "dev-client": "npm run dev --workspace=client"
+  },
+  "keywords": [],
+
+  "author": "youesei",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}

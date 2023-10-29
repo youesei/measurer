@@ -62,15 +62,15 @@ export default function ItemPage ({ params }) {
               </li>
               <li className='flex gap-2 justify-between items-center'>
               <label className='text-gray-300 basis-2/5' htmlFor="back-color">Back Color</label>
-                <input type='text' defaultValue='Blanco' id="back-color" className='text-white text-center bg-transparent outline-none basis-3/5 p-2 border-b'/>
+                <input type='text' defaultValue='Blanco' id="back-color" className='text-white text-center bg-transparent outline-none basis-3/5 p-2 border-b border-gray-500'/>
               </li>
               <li className='flex gap-2 justify-between items-center'>
               <label className='text-gray-300 basis-2/5' htmlFor="thickness">Espesor</label>
-                <input type='text' defaultValue='70' id="thickness" className='text-white text-center bg-transparent outline-none basis-3/5 p-2 border-b'/>
+                <input type='text' defaultValue='70' id="thickness" className='text-white text-center bg-transparent outline-none basis-3/5 p-2 border-b border-gray-500'/>
               </li>
               <li className='flex gap-2 justify-between items-center'>
                 <label className='text-gray-300 basis-2/5' htmlFor="weight">Peso</label>
-                <input type='text' defaultValue={0} id="weight" className='text-white text-center bg-transparent outline-none basis-3/5 p-2 border-b'/>
+                <input type='text' defaultValue={0} id="weight" className='text-white text-center bg-transparent outline-none basis-3/5 p-2 border-b border-gray-500'/>
               </li>
               <li className='flex gap-2 justify-between items-center'>
                 <label className='text-gray-300 basis-2/5' htmlFor="footage">Metraje</label>
@@ -106,3 +106,6 @@ export default function ItemPage ({ params }) {
     </div>
   )
 }
+
+
+

@@ -8,8 +8,8 @@
     "server"
   ],
   "scripts": {
-    "dev-server": "npm run start --workspace=server",
-    "dev-client": "npm run dev --workspace=client"
+    "dev:server": "npm run start --workspace=server",
+    "dev:client": "npm run dev --workspace=client"
   },
   "keywords": [],
 

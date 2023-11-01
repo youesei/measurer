@@ -12,13 +12,13 @@
     "dev:client": "npm run dev --workspace=client"
   },
   "keywords": [],
-
   "author": "youesei",
   "license": "ISC",
   "devDependencies": {
-    "standard": "^17.1.0"
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-n": "16.2.0",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-react": "7.33.2"
   }
 }

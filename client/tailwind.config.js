@@ -14,7 +14,10 @@ module.exports = {
       },
       colors: {
         lightGray: '#404040',
-        midnight: '#121063'
+        primary: '#262626',
+        danger: '#dc4c64',
+        darkBlue: '#3b71ca80',
+        darkGreen: '#40ca3b80'
       }
     }
   },

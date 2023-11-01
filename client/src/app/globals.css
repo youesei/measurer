@@ -6,7 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --bacground-one: rgb(38,38,38);
+  --bacground-one: rgb(38, 38, 38);
 }
 
 @media (prefers-color-scheme: dark) {

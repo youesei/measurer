@@ -1,8 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "private": true,
   "type":"module",
   "scripts": {
     "start": "node --watch server.js",
@@ -16,6 +15,8 @@
     "express": "4.18.2",
     "morgan": "1.10.0",
     "serialport": "12.0.0",
-    "socket.io": "4.7.2"
+    "socket.io": "4.7.2",
+    "mysql2": "3.6.1",
+    "zod":"3.22.4"
   }
 }
